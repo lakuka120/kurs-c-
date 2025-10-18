@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string>
+
+using namespace std;
+
+int main()
+{
+	double koszt, cbenz, spal, odleg ;
+	
+	cout << "podaj koszt benzyny"<< endl;
+	cin >> cbenz;
+	cout << "podaj wartosc spalania za 100km" << endl;
+	cin >> spal;
+	cout << "podaj odleglosc" << endl;
+		cin >> odleg;
+
+		koszt = cbenz * spal * odleg/100;
+		cout << "koszt przejazdu"<< koszt;
+
+
+
+
+	
+
+	return 0;
